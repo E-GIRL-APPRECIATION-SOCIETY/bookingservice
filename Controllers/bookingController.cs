@@ -38,7 +38,7 @@ public class bookingController : ControllerBase
         //use connection to make channel
         using var channel = connection.CreateModel();
         //use channel to declare queue
-        channel.QueueDeclare(queue: "plansender",
+        channel.QueueDeclare(queue: "Planning Service",
                      durable: false,
                      exclusive: false,
                      autoDelete: false,
@@ -47,7 +47,7 @@ public class bookingController : ControllerBase
         var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(newPlan));
         //publishes the JSON-string to the channel
         channel.BasicPublish(exchange: string.Empty,
-                     routingKey: "plansender",
+                     routingKey: "Planning Service",
                      basicProperties: null,
                      body: body);
     
@@ -56,6 +56,8 @@ public class bookingController : ControllerBase
     [HttpGet(Name = "getPlanFile")]
      public FileStreamResult GetFile()
         {
+         _logger.LogInformation("Method 'Get' from service TaxaBooking called at {DT}",  
+        DateTime.UtcNow.ToLongTimeString()); 
             //define path to find file
             var physicalPath = $"./Content/plan.csv";
             //read the file
