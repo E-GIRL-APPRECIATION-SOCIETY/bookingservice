@@ -12,8 +12,11 @@ public class bookingController : ControllerBase
 {
  private readonly ILogger<bookingController> _logger;
 
-    public bookingController(ILogger<bookingController> logger)
+ private readonly string _docPath;
+
+    public bookingController(ILogger<bookingController> logger, IConfiguration config)
     {
+        _docPath = config["DocPath"];
         _logger = logger;
     }
 
@@ -59,7 +62,7 @@ public class bookingController : ControllerBase
          _logger.LogInformation("Method 'Get' from service TaxaBooking called at {DT}",  
         DateTime.UtcNow.ToLongTimeString()); 
             //define path to find file
-            var physicalPath = $"./Content/plan.csv";
+            var physicalPath = _docPath;
             //read the file
             var pdfBytes = System.IO.File.ReadAllBytes(physicalPath);
             //stream result so it can be returned
