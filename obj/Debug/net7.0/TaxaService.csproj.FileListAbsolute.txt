@@ -49,3 +49,8 @@
 /Users/placeholder/Desktop/TaxaService/obj/Debug/net7.0/TaxaService.pdb
 /Users/placeholder/Desktop/TaxaService/obj/Debug/net7.0/TaxaService.genruntimeconfig.cache
 /Users/placeholder/Desktop/TaxaService/obj/Debug/net7.0/ref/TaxaService.dll
+/Users/placeholder/Desktop/TaxaService/bin/Debug/net7.0/NLog.config
+/Users/placeholder/Desktop/TaxaService/bin/Debug/net7.0/NLog.dll
+/Users/placeholder/Desktop/TaxaService/bin/Debug/net7.0/NLog.Extensions.Logging.dll
+/Users/placeholder/Desktop/TaxaService/bin/Debug/net7.0/NLog.Web.AspNetCore.dll
+/Users/placeholder/Desktop/TaxaService/bin/Debug/net7.0/NLog.Loki.dll

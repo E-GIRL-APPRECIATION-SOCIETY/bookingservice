@@ -1,0 +1,126 @@
+2023-04-11 09:33:47.9519|DEBUG|Program|init main
+2023-04-11 09:33:48.4604|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-04-11 09:33:48.5097|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-11 09:33:48.6505|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5157
+2023-04-11 09:33:48.6687|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly TaxaService
+2023-04-11 09:33:48.6692|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-11 09:33:48.6700|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-11 09:33:48.6700|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/placeholder/Desktop/TaxaService
+2023-04-11 09:33:48.6700|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-11 09:35:35.9076|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NL9" accepted.
+2023-04-11 09:35:35.9106|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NLA" accepted.
+2023-04-11 09:35:35.9131|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NLA" started.
+2023-04-11 09:35:35.9139|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NL9" started.
+2023-04-11 09:35:36.1759|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/ - -
+2023-04-11 09:35:36.1828|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-04-11 09:35:36.3301|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/'
+2023-04-11 09:35:36.3301|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 09:35:36.3752|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 09:35:36.3878|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NL9" completed keep alive response.
+2023-04-11 09:35:36.3964|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/ - - - 404 0 - 217.2429ms
+2023-04-11 09:36:46.3476|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-11 09:36:46.3610|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-11 09:36:46.3927|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NL9" disconnecting.
+2023-04-11 09:36:46.3929|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NLA" disconnecting.
+2023-04-11 09:36:46.3948|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NLA" stopped.
+2023-04-11 09:36:46.3949|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQBTBG2NL9" stopped.
+2023-04-11 09:36:46.3982|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQBTBG2NL9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-11 09:36:46.3982|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQBTBG2NLA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-11 09:36:46.4031|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-11 10:16:11.9237|DEBUG|Program|init main
+2023-04-11 10:16:12.3119|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-04-11 10:16:12.3713|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-11 10:16:12.4331|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5157
+2023-04-11 10:16:12.4676|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly TaxaService
+2023-04-11 10:16:12.4676|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-11 10:16:12.4687|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-11 10:16:12.4687|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/placeholder/Desktop/TaxaService
+2023-04-11 10:16:12.4687|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-11 10:17:43.6368|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDE7" received FIN.
+2023-04-11 10:17:43.6468|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE7" accepted.
+2023-04-11 10:17:43.6478|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE7" started.
+2023-04-11 10:17:43.6498|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" accepted.
+2023-04-11 10:17:43.6498|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" started.
+2023-04-11 10:17:43.6705|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDE7" sending FIN because: "The client closed the connection."
+2023-04-11 10:17:43.6730|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE7" disconnecting.
+2023-04-11 10:17:43.6761|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE7" stopped.
+2023-04-11 10:17:43.7166|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/getPlanfile - -
+2023-04-11 10:17:43.7214|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-04-11 10:17:43.7708|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/getPlanfile'
+2023-04-11 10:17:43.7719|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 10:17:43.8050|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 10:17:43.8125|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" completed keep alive response.
+2023-04-11 10:17:43.8155|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/getPlanfile - - - 404 0 - 102.4094ms
+2023-04-11 10:18:16.8760|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/getPlanFile - -
+2023-04-11 10:18:16.8815|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/getPlanFile'
+2023-04-11 10:18:16.8815|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 10:18:16.8839|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 10:18:16.8876|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" completed keep alive response.
+2023-04-11 10:18:16.8890|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/getPlanFile - - - 404 0 - 12.9160ms
+2023-04-11 10:18:34.6816|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/get - -
+2023-04-11 10:18:34.6816|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/get'
+2023-04-11 10:18:34.6816|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 10:18:34.6836|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 10:18:34.6836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" completed keep alive response.
+2023-04-11 10:18:34.6836|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/get - - - 404 0 - 2.2700ms
+2023-04-11 10:19:46.1902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/getPlanFile - -
+2023-04-11 10:19:46.1933|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/getPlanFile'
+2023-04-11 10:19:46.1933|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 10:19:46.1961|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 10:19:46.1971|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" completed keep alive response.
+2023-04-11 10:19:46.1971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/getPlanFile - - - 404 0 - 7.4110ms
+2023-04-11 10:21:02.6490|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5157/PostBooking?Custorname=%22test%22&start&slut&id=1 - 0
+2023-04-11 10:21:02.6518|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/PostBooking'
+2023-04-11 10:21:02.6518|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 10:21:02.6531|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-04-11 10:21:02.6531|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" completed keep alive response.
+2023-04-11 10:21:02.6531|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5157/PostBooking?Custorname=%22test%22&start&slut&id=1 - 0 - 404 0 - 4.3247ms
+2023-04-11 10:23:12.7985|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" disconnecting.
+2023-04-11 10:23:12.8060|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE8" stopped.
+2023-04-11 10:23:12.8085|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDE8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-11 10:40:28.6474|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDE9" received FIN.
+2023-04-11 10:40:28.6514|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE9" accepted.
+2023-04-11 10:40:28.6516|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE9" started.
+2023-04-11 10:40:28.6516|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEA" accepted.
+2023-04-11 10:40:28.6516|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEA" started.
+2023-04-11 10:40:28.6601|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDE9" sending FIN because: "The client closed the connection."
+2023-04-11 10:40:28.6605|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE9" disconnecting.
+2023-04-11 10:40:28.6605|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDE9" stopped.
+2023-04-11 10:40:28.6638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/getPlanFile - -
+2023-04-11 10:40:28.6651|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/getPlanFile'
+2023-04-11 10:40:28.6651|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 10:40:28.6719|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 10:40:28.6802|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEA" completed keep alive response.
+2023-04-11 10:40:28.6802|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/getPlanFile - - - 404 0 - 16.6938ms
+2023-04-11 10:42:39.6733|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEA" disconnecting.
+2023-04-11 10:42:39.6759|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEA" stopped.
+2023-04-11 10:42:39.6759|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDEA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-11 11:04:56.4584|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDEB" received FIN.
+2023-04-11 11:04:56.4610|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEB" accepted.
+2023-04-11 11:04:56.4610|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEB" started.
+2023-04-11 11:04:56.4644|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEC" accepted.
+2023-04-11 11:04:56.4644|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEC" started.
+2023-04-11 11:04:56.4673|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDEB" sending FIN because: "The client closed the connection."
+2023-04-11 11:04:56.4681|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEB" disconnecting.
+2023-04-11 11:04:56.4681|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEB" stopped.
+2023-04-11 11:04:56.4765|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/getPlanFile - -
+2023-04-11 11:04:56.4788|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/getPlanFile'
+2023-04-11 11:04:56.4788|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 11:04:56.4871|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 11:04:56.4893|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEC" completed keep alive response.
+2023-04-11 11:04:56.4893|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/getPlanFile - - - 404 0 - 16.9490ms
+2023-04-11 11:04:58.1368|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/getPlanFile - -
+2023-04-11 11:04:58.1371|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/getPlanFile'
+2023-04-11 11:04:58.1371|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 11:04:58.1371|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 11:04:58.1371|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEC" completed keep alive response.
+2023-04-11 11:04:58.1371|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/getPlanFile - - - 404 0 - 1.1418ms
+2023-04-11 11:04:59.0534|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5157/getPlanFile - -
+2023-04-11 11:04:59.0534|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/getPlanFile'
+2023-04-11 11:04:59.0534|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-04-11 11:04:59.0534|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-04-11 11:04:59.0534|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEC" completed keep alive response.
+2023-04-11 11:04:59.0534|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5157/getPlanFile - - - 404 0 - 0.4575ms
+2023-04-11 11:07:09.9466|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEC" disconnecting.
+2023-04-11 11:07:09.9476|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMPQCKSQCDEC" stopped.
+2023-04-11 11:07:09.9476|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPQCKSQCDEC" sending FIN because: "The Socket transport's send loop completed gracefully."
